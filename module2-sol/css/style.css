@@ -27,8 +27,8 @@ h2{
     background-color: aquamarine;
     border: 1px solid black;
     float: left;
-    width: 32%;
-    margin-right: 2px;
+    /* width: 32%; */
+    margin: 5px;
     margin-bottom: 3px;
 }
 #para2{
@@ -36,17 +36,19 @@ h2{
     background-color: rgb(180, 129, 228);
     /* position: relative; */
     border: 1px solid black;
-    width: 32%;
-    margin-left: 23px;
+    /* width: 32%; */
+    margin: 5px;
     margin-bottom: 3px;
 }
 
 #para3{
-    float: right;
+    float: left;
     background-color: bisque;
-    width: 32%;
+    /* width: 32%; */
     border: 1px solid black;
-    margin-top: 1px;
+    margin: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 h3{
@@ -68,7 +70,7 @@ h3{
     }
 }
 
-@media (min-width: 768px and max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
     
     #para1{
         width: 48%;
@@ -79,7 +81,22 @@ h3{
     }
 
     #para3{
-        width: 85%;
+        width: 100%;
     }
     
+}
+
+@media (max-width: 767px){
+
+       #para1{
+           width: 100%;
+       }
+
+       #para2{
+           width: 100%;
+       }
+
+       #para3{
+           width: 100%;
+       }
 }
