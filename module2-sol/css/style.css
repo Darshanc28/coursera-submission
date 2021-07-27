@@ -1,11 +1,14 @@
 *{
     box-sizing: border-box;
-    
+    font-family: 'Baloo Bhai 2', cursive;
+
 }
 
 
-h2{
+h1{
     text-align: center;
+    font-size: 2.5rem;
+
 }
 
 .container{
@@ -24,14 +27,18 @@ h2{
 
 }
 #para1{
+
     background-color: aquamarine;
     border: 1px solid black;
     float: left;
     /* width: 32%; */
     margin: 5px;
     margin-bottom: 3px;
+    width: 400px;
+    height: 206px;
 }
 #para2{
+
     float: left;
     background-color: rgb(180, 129, 228);
     /* position: relative; */
@@ -39,9 +46,12 @@ h2{
     /* width: 32%; */
     margin: 5px;
     margin-bottom: 3px;
+    width: 400px;
+    height: 206px;
 }
 
 #para3{
+
     float: left;
     background-color: bisque;
     /* width: 32%; */
@@ -49,6 +59,8 @@ h2{
     margin: 5px;
     margin-top: 3px;
     margin-bottom: 3px;
+    width: 400px;
+    height: 206px;
 }
 
 h3{
@@ -60,18 +72,18 @@ h3{
     #para1{
         width: 32%;
     }
-    
+
     #para2{
         width: 32%;
     }
-    
+
     #para3{
          width: 32%;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    
+
     #para1{
         width: 48%;
     }
@@ -83,7 +95,7 @@ h3{
     #para3{
         width: 97.5%;
     }
-    
+
 }
 
 @media (max-width: 767px){
@@ -99,4 +111,40 @@ h3{
        #para3{
            width: 100%;
        }
+}
+
+#subh1{
+  background-color: pink;
+  border: 1px solid black;
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: -20px;
+  padding: 8px 10px;
+}
+
+#subh2{
+  background-color: lightyellow;
+  border: 1px solid black;
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: -20px;
+  padding: 8px 10px;
+}
+
+#subh3{
+  background-color: red;
+  border: 1px solid black;
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: -20px;
+  padding: 8px 10px;
+}
+.text{
+  margin-top: 81px;
+  padding: 2px 4px;
+  margin-top:52px;
+  font-weight: bold;
 }
